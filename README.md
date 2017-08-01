@@ -62,6 +62,18 @@ cp OpenSSL/lib-macos ShadowPath/libopenssl/lib-macos
 cp OpenSSL/lib-ios ShadowPath/libopenssl/lib-ios
 ```
 
+### libexpat
+
+[libexpat](https://github.com/libexpat/libexpat/tree/master/expat) is a transitive dependency of uProxy. It is required by Antinat. To update the macOS static library and include, run:
+
+```
+git clone git@github.com:libexpat/libexpat.git
+./buildconf.sh
+./configure --prefix=$INSTALL_PATH
+cp -R $INSTALL_PATH/include ShadowPath/Antinat/expat-lib/include
+cp $INSTALL_PATH/lib/libexpat.a ShadowPath/Antinat/expat-lib/lib-macos/libexpat.a
+```
+
 ## Sources
 The code in this repository is adapted from [Potatso](https://github.com/uProxy/Potatso).
 
