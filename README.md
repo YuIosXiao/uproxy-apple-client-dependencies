@@ -1,7 +1,7 @@
 # uproxy-apple-client-dependencies
 This repository contains an Xcode project to build uProxy macOS/iOS clients dependencies.
 
-shadowsocks-libev and tun2socks dependencies are encapsulated in `ShadowPath_[iOS|macOS].framework` and `PacketProcessor_[iOS|macOS].framework`, respectively. Additionally, ShadowPath encapsulates [Privoxy](https://www.privoxy.org) and [Antinant](http://www.malsmith.net/antinat).
+shadowsocks-libev and tun2socks dependencies are encapsulated in `ShadowPath_[iOS|macOS].framework` and `PacketProcessor_[iOS|macOS].framework`, respectively. Additionally, ShadowPath encapsulates [Privoxy](https://www.privoxy.org) and [Antinat](http://www.malsmith.net/antinat).
 
 ## Build
 
