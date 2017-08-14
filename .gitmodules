@@ -1,0 +1,7 @@
+[submodule "ShadowPath/libmaxminddb"]
+	path = ShadowPath/libmaxminddb
+	url = git@github.com:haxpor/libmaxminddb.git
+[submodule "ShadowPath/shadowsocks-libev"]
+	path = ShadowPath/shadowsocks-libev
+	url = git@github.com:uProxy/shadowsocks-libev-ios.git
+	branch = pinned-master
